@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function Main() {
+export default function Main({ match }) {
     return (
-        <div>teste</div>
+        <div>{match.params.id}</div>
     )
 }
